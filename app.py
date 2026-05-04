@@ -41,7 +41,7 @@ sum_assured = st.sidebar.number_input("Sum Assured (THB)", min_value=100000, val
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("🎯 Scenario Analysis")
-death_age = st.sidebar.slider("Simulated Age of Death", age_input + 1, 99, 90)
+death_age = st.sidebar.slider("Simulated Age of Death", age_input + 1, 99, 99)
 
 # 4. Actuarial Calculation Engine
 def calculate_model(df, gender, age, i, S):
